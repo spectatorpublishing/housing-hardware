@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import QandA from './components/QandA.js';
 import { createGlobalStyle } from 'styled-components';
 import TitlePage from './components/TitlePage.js'
+import Pic from './components/Pic.js';
+
 const GlobalStyle = createGlobalStyle`
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway');
 
