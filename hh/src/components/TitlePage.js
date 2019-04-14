@@ -18,11 +18,9 @@ const Title = styled.div`
 
 const Titles = styled.div`
   position: relative;
-  height:30rem;
+  width: 100%;
+  height: auto;
   text-align:center;
-  background-position: center; 
-  background-repeat: no-repeat;
-  background-image: url("https://cdn.pixabay.com/photo/2016/02/09/12/25/puppy-1189067_960_720.jpg");
 `
 
 class TitlePage extends Component {
@@ -30,6 +28,7 @@ class TitlePage extends Component {
   render() {
     return (
       <Titles>
+          <img src="https://cdn.pixabay.com/photo/2016/02/09/12/25/puppy-1189067_960_720.jpg" width ='100%' />
           <Title>{this.props.title}</Title>
       </Titles>
     );
