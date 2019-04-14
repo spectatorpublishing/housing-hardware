@@ -10,9 +10,11 @@ class QandA extends Component {
     render(){
         return (
             <div>
-            <Question>Question</Question>
-            <Answer>Answer</Answer>
+            <Question>{this.props.question}</Question>
+            <Answer>{this.props.answer}</Answer>
             </div>
         );
     }
 }
+
+export default QandA;
