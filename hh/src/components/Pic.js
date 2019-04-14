@@ -1,16 +1,15 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 
-let Image = styled.div`
-
+let Image = styled.img`
 `
 
-class Image extends Component {
+class Pic extends Component {
     render(){
         return (
-            <Image></Image>
+            <Image src = {this.props.img}></Image>
         );
     }
 }
 
-export default Image;
+export default Pic;
