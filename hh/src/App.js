@@ -18,7 +18,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <QandA question = "Hello?" answer = "Hello!"></QandA>
+        <QandA question = "How many chucks could a woodchuck chuck" answer = "42"></QandA>
       </div>
     );
   }
