@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 
 let Question = styled.div`
-    color: #2651C1
+    color: #2651C1;
     font-size: 1.8rem;
     margin-bottom: 10px;
 `
