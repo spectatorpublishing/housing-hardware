@@ -10,13 +10,17 @@ let Question = styled.div`
 let Answer = styled.div`
     font-size: 1.25rem;
 `
+
+let Container = styled.div`
+    font-family: 'Open Sans', sans-serif;
+`
 class QandA extends Component {
     render(){
         return (
-            <div>
+            <Container>
             <Question>Q: {this.props.question}</Question>
             <Answer><b>A: </b> {this.props.answer}</Answer>
-            </div>
+            </Container>
         );
     }
 }
