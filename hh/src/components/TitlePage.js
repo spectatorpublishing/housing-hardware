@@ -5,17 +5,27 @@ import styled from 'styled-components';
 const Title = styled.div`
   font-size : 4.0rem;
   color:white;
-  position: absolute;
   font-family: 'Open Sans', sans-serif;
-  bottom: 0;
   font-weight:700;
+  position: absolute;
+  bottom: 0;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: -1.2rem;
+  left:0;
+  right:0;
 `
 
 const Titles = styled.div`
   position: relative;
-  height:30rem;
-  background-image: url("https://cdn.pixabay.com/photo/2016/02/09/12/25/puppy-1189067_960_720.jpg");
+  width: 100%;
+  height: 37rem;
+  text-align:center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: url("https://s3.amazonaws.com/spec-imagehosting/cover.jpg");
 `
+
 
 class TitlePage extends Component {
 
