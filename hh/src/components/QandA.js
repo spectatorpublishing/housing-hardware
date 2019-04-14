@@ -2,13 +2,14 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 
 let Question = styled.div`
-    color : blue;
-    font-size: 1.5rem;
-
+    color: #2651C1
+    font-size: 1.8rem;
+    margin-bottom: 10px;
 `
 
 let Answer = styled.div`
-    font-size: 1.25rem;
+    font-size: 1.3rem;
+    margin-bottom: 40px;
 `
 
 let Container = styled.div`
